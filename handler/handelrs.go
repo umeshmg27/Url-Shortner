@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/eddywm/go-shortner/shortener"
-	"github.com/eddywm/go-shortner/store"
+	"github.com/umeshmg27/Url-Shortner/shortener"
+	"github.com/umeshmg27/Url-Shortner/store"
 
 	"net/http"
 

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/eddywm/go-shortner/handler"
-	"github.com/eddywm/go-shortner/store"
 	"github.com/gin-gonic/gin"
+	"github.com/umeshmg27/Url-Shortner/handler"
+	"github.com/umeshmg27/Url-Shortner/store"
 )
 
 func main() {
