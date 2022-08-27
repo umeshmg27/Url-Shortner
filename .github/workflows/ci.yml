@@ -38,11 +38,6 @@ jobs:
         redis-version: ${{ matrix.redis-version }}
         persist-credentials: false
 
-    - run: npm install
-
-    - run: npm test
-      env:
-        CI: true
 
     - name: Build
       run: go build -v ./...
