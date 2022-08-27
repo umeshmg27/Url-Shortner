@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"./handler"
-	"./store"
+	"github.com/eddywm/go-shortner/handler"
+	"github.com/eddywm/go-shortner/store"
 	"github.com/gin-gonic/gin"
 )
 

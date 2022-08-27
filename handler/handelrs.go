@@ -1,9 +1,12 @@
+package handler
+
 import (
-	"../shortener"
-	"../store"
+	"github.com/eddywm/go-shortner/shortener"
+	"github.com/eddywm/go-shortner/store"
+
+	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"net/http"
 )
 
 // Request model definition
