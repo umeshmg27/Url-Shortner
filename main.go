@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
+	"./handler"
+	"./store"
 	"github.com/gin-gonic/gin"
-	"github.com/umeshmg27/URL-SHORTNER/handler"
-	"github.com/umeshmg27/URL-SHORTNER/store"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 import (
-	"github.com/umeshmg27/URL-SHORTNER/shortener"
-	"github.com/umeshmg27/URL-SHORTNER/store"
+	"../shortener"
+	"../store"
 
 	"github.com/gin-gonic/gin"
 	"net/http"
